@@ -4,6 +4,8 @@
 _By Anandi Ganguli • Feb 2024_
 
 ---
+> 🧪 **Tech Stack:** SAS (Main Branch) · R (Branch: [`R`](https://github.com/anandiganguli97/Medicare-payment-disparities/tree/R)) · SQL (Branch: [`SQL`](https://github.com/anandiganguli97/Medicare-payment-disparities/tree/SQL))
+
 
 ## 📌 Project Overview
 
