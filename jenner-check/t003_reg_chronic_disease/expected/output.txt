@@ -1,0 +1,39 @@
+                                                  The MEANS Procedure
+
+ Variable                      N              Mean           Std Dev           Minimum            Maximum
+ --------------------------------------------------------------------------------------------------------
+ tot_mdcr_alowd_amt_num       24     74286.2187500     34344.3712381     33420.1500000     135200.1000000
+ --------------------------------------------------------------------------------------------------------
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                       Dependent Variable: tot_mdcr_alowd_amt_num                                       
+
+Source                 DF     Sum of Squares       Mean Square   F Value    Pr > F
+---------------  --------  -----------------  ----------------  --------  --------
+Model                  13  27111894398.49390  2085530338.34569   1196.53    <.0001
+Error                  10     17429823.47016     1742982.34702                    
+Corrected Total        23  27129324221.96407                                      
+
+Root MSE        1320.22057    R-Square            0.9994
+Dependent Mean   74286.21875    Adj R-Sq            0.9985
+Coeff Var          1.77721
+
+                                    Parameter Estimates                                     
+
+Variable                                DF      Estimate  Standard Error   t Value  Pr > |t|
+--------------------------------  --------  ------------  --------------  --------  --------
+Intercept                                1  151485.36081    135316.91845      1.12    0.2891
+prop_rural_num                           1  -14214.87598       848.09230    -16.76    <.0001
+bene_cc_ph_asthma_v2_num                 1    -398.59604      2761.97143     -0.14    0.8881
+bene_cc_ph_afib_v2_num                   1     186.83883      2031.52352      0.09    0.9285
+bene_cc_ph_cancer6_v2_num                1    6234.10359      1130.10237      5.52    0.0003
+bene_cc_ph_ckd_v2_num                    1    2970.68361      3935.68920      0.75    0.4678
+bene_cc_ph_copd_v2_num                   1   16375.11284      7675.15193      2.13    0.0587
+bene_cc_ph_diabetes_v2_num               1    1864.46267      1509.20051      1.24    0.2449
+bene_cc_ph_hf_nonihd_v2_num              1    1342.87123      5007.03733      0.27    0.7940
+bene_cc_ph_hyperlipidemia_v2_num         1  -13708.00381      5756.22989     -2.38    0.0385
+bene_cc_ph_hypertension_v2_num           1    3462.85442      5531.21164      0.63    0.5453
+bene_cc_ph_ischemic_heart_v2_num         1    4549.07597      2290.67952      1.99    0.0751
+bene_cc_ph_osteoporosis_v2_num           1    5677.75337      5687.28111      1.00    0.3417
+bene_cc_ph_parkinson_v2_num              1  -47296.19899     17037.20851     -2.78    0.0196

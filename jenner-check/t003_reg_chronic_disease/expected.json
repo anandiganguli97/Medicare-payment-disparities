@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-19T13:15:55Z",
+  "_captured_run_id": "r_35b578960f124e02a48f76ae93d2e239",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote mips_clean (24 rows, 14 columns).",
+    "NOTE: PROC MEANS statement used.",
+    "NOTE: PROC REG: processed 1 job(s) in batch"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

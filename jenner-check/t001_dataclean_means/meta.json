@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_dataclean_means",
+  "source_file": "Medicare_study.sas",
+  "source_blob_sha": "2cd6403dff68fc9cecb73eeece06252da9080834",
+  "source_commit": "b72f596941b7ef8ce91d6e1ff23a5ebc5a4ed590",
+  "notes": "PROC IMPORT of external confidential CSV (/home/u63574590/Health_data_comp.csv) replaced with a 24-row inline mock matching the raw column shape (all char, as PROC IMPORT yields); runs their cleaning DATA step (rural->0/1, INPUT payments BEST12.) + PROC CONTENTS + PROC MEANS validation."
+}

@@ -1,0 +1,17 @@
+                             Top Medicare Payments by Provider Specialty (avg, descending)
+
+  Obs        pri_spec_clean       avg_payment
+    1  Hematology/Oncology          125468.55
+    2  Cardiology            79512.2166666667
+    3  Internal Medicine     51903.8083333333
+    4  Family Practice                40260.3
+
+                             Top Medicare Payments by Provider Specialty (avg, descending)
+
+                            Bottom Medicare Payments by Provider Specialty (avg, ascending)
+
+  Obs        pri_spec_clean       avg_payment
+    1  Family Practice                40260.3
+    2  Internal Medicine     51903.8083333333
+    3  Cardiology            79512.2166666667
+    4  Hematology/Oncology          125468.55
