@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_ttest_rural_urban",
+  "source_file": "Medicare_study.sas",
+  "source_blob_sha": "2cd6403dff68fc9cecb73eeece06252da9080834",
+  "source_commit": "b72f596941b7ef8ce91d6e1ff23a5ebc5a4ed590",
+  "notes": "Mock 24-row provider dataset (same column shape as the confidential CSV); runs their FREQ distribution check + PROC TTEST comparing tot_mdcr_alowd_amt_num by rural/urban. Reproduces the README's rural<urban payment gap."
+}

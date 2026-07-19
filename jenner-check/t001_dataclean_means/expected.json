@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-19T13:15:55Z",
+  "_captured_run_id": "r_c18f5c625857476088ae9b00f6087263",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: PROC CONTENTS completed: 24 observations, 16 variables",
+    "NOTE: Wrote mips_clean (24 rows, 2 columns).",
+    "NOTE: PROC MEANS statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

@@ -1,0 +1,36 @@
+                                    Final Check: Rural Status Variable Distribution
+
+                                                   The FREQ Procedure
+
+                                            Cumulative    Cumulative
+prop_rural_num    Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------------
+0                        12     50.00           12        50.00
+1                        12     50.00           24       100.00
+                                    Final Check: Rural Status Variable Distribution
+
+                     The TTEST Procedure                     
+              Variable:  tot_mdcr_alowd_amt_num              
+
+prop_rural_num         N         Mean     Std Dev     Std Err
+--------------  --------  -----------  ----------  ----------
+1                     12   67041.1000  33901.0650   9786.3945
+0                     12   81531.3375  34676.9743  10010.3802
+Diff (1-2)                -14490.2375                        
+
+prop_rural_num  Lower CL Mean         Mean  Upper CL Mean  Lower CL Std Dev     Std Dev  Upper CL Std Dev
+--------------  -------------  -----------  -------------  ----------------  ----------  ----------------
+1                  45501.3909   67041.1000     88580.8091        24015.3501  33901.0650        57559.8731
+0                  59498.6392   81531.3375    103564.0358        24565.0004  34676.9743        58877.2724
+Diff (1-2)        -43523.0702  -14490.2375     14542.5952        26520.6484  34291.2143        48534.1182
+
+Method         Variances        DF   t Value  Pr > |t|
+-------------  ---------  --------  --------  --------
+Pooled         Equal            22     -1.04    0.3119
+Satterthwaite  Unequal        22.0     -1.04    0.3119
+
+   Equality of Variances    
+
+Method     F Value    Pr > F
+--------  --------  --------
+Folded F      1.05    0.9415

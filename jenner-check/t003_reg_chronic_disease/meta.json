@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_reg_chronic_disease",
+  "source_file": "Medicare_study.sas",
+  "source_blob_sha": "2cd6403dff68fc9cecb73eeece06252da9080834",
+  "source_commit": "b72f596941b7ef8ce91d6e1ff23a5ebc5a4ed590",
+  "notes": "Mock 24-row dataset; runs their PROC REG of Medicare payments on rural status + 12 chronic-disease burden predictors (INPUT(COMPRESS(...),BEST12.) conversions), plus the PROC MEANS on the payment variable."
+}

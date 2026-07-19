@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_sql_top_bottom_specialties",
+  "source_file": "Medicare_study.sas",
+  "source_blob_sha": "2cd6403dff68fc9cecb73eeece06252da9080834",
+  "source_commit": "b72f596941b7ef8ce91d6e1ff23a5ebc5a4ed590",
+  "notes": "Mock 24-row dataset (4 specialties x rural/urban); runs their two PROC SQL aggregations of average payment by provider specialty (top descending, bottom ascending), printed via PROC PRINT."
+}

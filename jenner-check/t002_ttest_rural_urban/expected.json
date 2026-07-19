@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-19T13:15:55Z",
+  "_captured_run_id": "r_72b1dc2f41b8409c88a01914e663436c",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote mips_clean (24 rows, 2 columns).",
+    "NOTE: PROC FREQ statement used.",
+    "NOTE: PROC TTEST statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

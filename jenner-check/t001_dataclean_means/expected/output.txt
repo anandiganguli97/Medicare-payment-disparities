@@ -1,0 +1,38 @@
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: Health_data_comp
+Observations:  24
+Variables:     16
+
+Variables (in alphabetical order):
+
+  #  Variable                          Type    Len  Format  Label
+---  --------------------------------  ----  -----  ------  -----
+  1  avg_final_score                   Char      8          
+  2  bene_cc_ph_afib_v2_pct            Char      8          
+  3  bene_cc_ph_asthma_v2_pct          Char      8          
+  4  bene_cc_ph_cancer6_v2_pct         Char      8          
+  5  bene_cc_ph_ckd_v2_pct             Char      8          
+  6  bene_cc_ph_copd_v2_pct            Char      8          
+  7  bene_cc_ph_diabetes_v2_pct        Char      8          
+  8  bene_cc_ph_hf_nonihd_v2_pct       Char      8          
+  9  bene_cc_ph_hyperlipidemia_v2_pct  Char      8          
+ 10  bene_cc_ph_hypertension_v2_pct    Char      8          
+ 11  bene_cc_ph_ischemic_heart_v2_pct  Char      8          
+ 12  bene_cc_ph_osteoporosis_v2_pct    Char      8          
+ 13  bene_cc_ph_parkinson_v2_pct       Char      8          
+ 14  pri_spec                          Char     30          
+ 15  prop_rural_status                 Char      5          
+ 16  tot_mdcr_alowd_amt                Char      8          
+
+-------------------------------------------------------------------------------
+
+                                                  The MEANS Procedure
+
+ Variable                      N              Mean           Std Dev           Minimum            Maximum
+ --------------------------------------------------------------------------------------------------------
+ prop_rural_num               24         0.5000000         0.5107539         0.0000000          1.0000000
+ tot_mdcr_alowd_amt_num       24     74286.2187500     34344.3712381     33420.1500000     135200.1000000
+ --------------------------------------------------------------------------------------------------------
